@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>HBDrone</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">HBDrone</a>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="/company/">Company</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/product/">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/support/">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header>
+            <div style="width: Xrem">
+                <img src="{% static 'img/home/New_Drone.jpeg' %}" class="w-100">
+            </div>
+            <div class="container">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-10 position-absolute">
+                        <div class="text-center my-5 carousel-caption">
+                            <h1 class="display-5 fw-bolder text-black mb-2">HBDrone VAMIC 3 Pro</h1>
+                            <p class="lead text-black-50 mb-4">Flagship Camera Drone</p>
+                            <div class="d-grid gap-3 d-flex justify-content-center">
+                                <a class="btn btn-outline-light px-4 me-sm-3" href="/product/">더 알아보기</a>
+                                <a class="btn btn-primary px-4" href="#features" style="width: 141.53px;">구매하기</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Features section-->
+        <div class="container py-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary text-white rounded-3 mb-3"><i class="bi bi-check-square-fill"></i></div>
+                    <h2 class="h4 fw-bolder">전방위 장애물 감지</h2>
+                    <p>전방위 장애물 감지 시스템으로 당신의 드론을 지켜드립니다.</p>
+                    <p>비행 중 자동 제동 및 우회 기능</p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-flag-fill"></i></div>
+                    <h2 class="h4 fw-bolder">최대 20Km FHD 동영상 전송</h2>
+                    <p>새로운 동영상 전송 기술을 통해 최대 20Km 멀어진 곳에서도 즐거운 경험을 체험하세요.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-battery-full"></i></div>
+                    <h2 class="h4 fw-bolder">긴 배터리 사용 시간</h2>
+                    <p>배터리에 대한 걱정은 내려놓고, 더 길어진 비행 시간으로 마음껏 즐기세요.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <footer class="py-5 bg-dark">
+            <ul class="nav col-md-4 justify-content px-5">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">회사소개</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">문의하기</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">채용공고</a></li>
+            </ul>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content border-top px-5">
+                <ul class="nav col-md-4 justify-content">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개인정보처리방침</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">쿠키 사용</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">이용 약관</a></li>
+                </ul>
+            </div>
+            <p class="px-5">346, Jungana-ro, Samcheock-si, Gangwon-do, Republic of Korea</p>
+        </footer>
+    </body>
+</html>

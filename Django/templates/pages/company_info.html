@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>HBDrone</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">HBDrone</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="/company/">Company</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/product/">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/support/">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div style="width: Xrem">
+                <img src="{% static 'img/company/Company.jpeg' %}" class="w-100" style="object-position: 20% 10%;">          
+            </div>
+        </header>
+        <section style="padding: 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <ul class="menu">
+                            <li data-index="0" class="menu-item active"><span>HBDrone 소개</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-10">
+                        <div class="desc desc-1 active">
+                            <p>
+                                모든 꿈의 중심에는 자신만의 철학이 있습니다. 우리의 세상을 변화시키는 모든 획기적인 발상과 결과물은 재능있는 인재들의 신념에서부터 시작합니다.
+                                우리는 우리의 제품으로 풍경, 소중한 추억, 예술적인 영상을 담아냈으면 합니다.<br></br>
+                                "형태는 기능에 따른다." 라는 명제에 충실한 HBDrone의 제품은 고급 기술과 역동적인 디자인의 결합체입니다.<br></br>
+                                우리의 제품이 당신의 꿈을 띄우는 도구가 되길 원합니다.
+                            </p>
+                        </div>
+                        <p class="note"><span></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer  -->
+        <footer class="py-5 bg-dark">
+            <ul class="nav col-md-4 justify-content px-5">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">회사소개</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">문의하기</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">채용공고</a></li>
+            </ul>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content border-top px-5">
+                <ul class="nav col-md-4 justify-content">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개인정보처리방침</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">쿠키 사용</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">이용 약관</a></li>
+                </ul>
+            </div>
+            <p class="px-5">346, Jungana-ro, Samcheock-si, Gangwon-do, Republic of Korea</p>
+        </footer>        
+    </body>
+</html>

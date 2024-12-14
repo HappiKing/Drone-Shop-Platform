@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>HBDrone</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">HBDrone</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="/company/">Company</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/product/">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/support/">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        <main class="text-center" style="margin: 130px;">
+            <section class="section-hero">
+                <h1 class="typography-headline-elevated fw-bolder">드론 모델 비교하기</h1>
+                <div class="typography-intro ac-gf-buystrip">
+                    <span>어떤 제품을 선택할지 고민된다면?</span>
+                </div>
+            </section>
+            <div class="container">
+                <div class="row" style="margin-right: -300px; margin-left: -300px;">
+                    <div class="col-3">
+                        <img src="{% static 'img/product/quad.jpeg' %}" style="width: 400px;">          
+                    </div>
+                    <div class="col-3">
+                        <img src="{% static 'img/product/octo.jpeg' %}" style="width: 400px;">          
+                    </div>
+                    <div class="col-3">
+                        <img src="{% static 'img/product/hexa.jpeg' %}" style="width: 400px; height: 350px;">          
+                    </div>
+                    <div class="col-3">
+                        <img src="{% static 'img/product/Mavic.jpeg' %}" style="width: 400px;">          
+                    </div>
+                </div>
+                <div class="row" style="margin-right: -300px; margin-left: -300px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 2em;">QuadDrone</span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 2em;">HexaDrone</span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 2em;">OctaDrone</span>
+                    </div>
+                    <div class="col-3">
+                        <span>new</span>
+                        <span class="fw-bolder" style="font-size: 2em;">VAMIC 3 Pro</span>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 20px;">
+                    <div class="col-3">
+                        <a class="btn btn-primary px-4 rounded-pill" href="/product/option/" style="width: 141.53px;">구매하기</a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-primary px-4 rounded-pill" href="/product/option/" style="width: 141.53px;">구매하기</a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-primary px-4 rounded-pill" href="/product/option/" style="width: 141.53px;">구매하기</a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-primary px-4 rounded-pill" href="/product/option/" style="width: 141.53px;">구매하기</a>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 70px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">&lt;&nbsp;249&nbsp;<wbr>g</span>
+                        <br></dr>
+                        <span class="badge-copy">이륙 무게</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">720&nbsp;<wbr>g</span>
+                        <br></dr>
+                        <span class="badge-copy">이륙 무게</span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">795&nbsp;<wbr>g</span>
+                        <br></dr>
+                        <span class="badge-copy">이륙 무게</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">958&nbsp;<wbr>g</span>
+                        <br></dr>
+                        <span class="badge-copy">이륙 무게</span>    
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-battery-full"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 비행시간 34분 또는 45분</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-battery-full"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 비행시간 46분</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-battery-full"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 비행시간 16분</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-battery-full"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 비행시간 43분</span>   
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-camera"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">1/1.3" CMOS 광각 카메라</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-camera"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">광각 카메라:1/1.3" CMOS</span>
+                        <br></dr>
+                        <span class="badge-copy">미디엄 망원 카메라:1/1.3" CMOS</span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-camera"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">1/2.3" CMOS</span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-camera"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">4/3 CMOS 카메라</span>
+                        <br></dr>
+                        <span class="badge-copy">1/1.3" CMOS 미디엄 망원 카메라</span>
+                        <br></dr>
+                        <span class="badge-copy">1/1.2" CMOS 망원 카메라</span>   
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-badge-4k"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">4K/60fps HDR</span>
+                        <br></dr>
+                        <span class="badge-copy">4K/100fps</span> 
+                        <br></dr>
+                        <span class="badge-copy">최대 동영상 해상도</span> 
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-badge-4k"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">광각 카메라/미디엄 망원 카메라</span>
+                        <br></dr>
+                        <span class="badge-copy">4K/60fps HDR</span>
+                        <br></dr>
+                        <span class="badge-copy">4K/100fps</span> 
+                        <br></dr>
+                        <span class="badge-copy">최대 동영상 해상도</span> 
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 5em;"><i class="bi bi-dash"></i></span>
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-badge-8k"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">8K/30fps</span>
+                        <br></dr>
+                        <span class="badge-copy">최대 동영상 해상도</span>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">48&nbsp;<wbr>MP</span>
+                        <br></dr>
+                        <span class="badge-copy">최대 사진 해상도</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">48&nbsp;<wbr>MP</span>
+                        <br></dr>
+                        <span class="badge-copy">최대 사진 해상도</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">150&nbsp;<wbr>º</span>
+                        <br></dr>
+                        <span class="badge-copy">초광각 FOV</span>   
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;">48&nbsp;<wbr>MP</span>
+                        <br></dr>
+                        <span class="badge-copy">최대 사진 해상도</span>    
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-brightness-low"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">전방위 장애물 감지</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">전방, 후방, 상향, 하향, 좌측, 우측</span>    
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-brightness-low"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">전방위 장애물 감지</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">전방, 후방, 상향, 하향, 좌측, 우측</span>       
+                    </div>
+                    <div class="col-3">
+                        <br></dr>
+                        <span class="fw-bolder" style="font-size: 1.6em;" style="text-align: center;">RockSteady</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">EIS(전자식 손떨림 방지)</span>       
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-brightness-low"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">전방위 장애물 감지</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">전방, 후방, 상향, 하향, 좌측, 우측</span>        
+                    </div>
+                </div>
+
+                <div class="row" style="margin-right: -300px; margin-left: -300px; margin-top: 30px;">
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-broadcast-pin"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 거리 20 Km</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">1080p/60fps 라이브 피드</span>    
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-broadcast-pin"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 거리 20 Km</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">1080p/60fps 라이브 피드</span>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                    <div class="col-3">
+                        <span class="fw-bolder" style="font-size: 3em;"><i class="bi bi-broadcast-pin"></i></span>
+                        <br></dr>
+                        <span class="badge-copy">최대 거리 15 Km</span>
+                        <br></dr>
+                        <span class="badge-copy text-black-50">1080p/60fps 라이브 피드</span>  
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="py-5 bg-dark">
+            <ul class="nav col-md-4 justify-content px-5">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">회사소개</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">문의하기</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">채용공고</a></li>
+            </ul>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content border-top px-5">
+                <ul class="nav col-md-4 justify-content">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개인정보처리방침</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">쿠키 사용</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">이용 약관</a></li>
+                </ul>
+            </div>
+            <p class="px-5">346, Jungana-ro, Samcheock-si, Gangwon-do, Republic of Korea</p>
+        </footer>
+    </body>
+</html>
